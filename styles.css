@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    text-align: justify;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.layout {
+    display: grid;
+    background-color: cadetblue;
+    grid-template-rows: 100px 1fr;
+}
+
+header {
+    display: grid;
+    background: royalblue;
+    place-items: center;
+    border-bottom: 3px solid rgb(34, 39, 44);
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Courier, monospace;
+    font-weight: bolder;    
+    color: black;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    background-color: cadetblue;
+    gap: 20px;
+}
+
+.subtitle {
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    display: grid;
+    font-size: 2rem;
+    font-family: Courier, monospace;
+    line-height: 1.5;
+    color: rgb(35, 42, 49);
+    padding: 15px;
+}
+
+.quoteone,
+.quotethree {
+    background-color: rgb(181, 204, 228);
+    border: 2px solid salmon;
+    line-height: 1.5;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 15px;
+    
+}
+
+.quotetwo {
+    background-color: salmon;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 15px;
+    border: 2px solid rgb(181, 204, 228);
+    line-height: 1.5;
+}
+
+p {
+    width: 500px;
+    place-items: center;
+    font-family: 'Anton', sans-serif;;
+    gap: 20px;
+    color: rgb(51, 52, 53);
+}
+
+h3 {
+     display: grid;
+     font-size: 1.1rem;
+     font-family: 'Anton', sans-serif;
+     color: rgb(26, 25, 25);
+     justify-items: end;
+}
+
+#subtitle2 {
+    display: grid;
+    place-items: center;
+    padding-bottom: 0;
+}
+
+.quotefour {
+    background-color: #75c4c9;
+    border: 2px solid rgb(190, 184, 183);
+    line-height: 1.5;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 15px;
+}
+
+/*GATHERING POINTS IF YOU KNOW WHAT I MEAN*/
+main article.quotefour section p q em {
+    color: rgb(126, 124, 123);
+    font-style: normal;
+}
+
+span {
+    color: rgb(171, 200, 231);  
+}
