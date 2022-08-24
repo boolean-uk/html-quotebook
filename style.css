@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+html {
+    font-size: large;
+}
+
+h1 {
+    background-color: #8c0031;
+    color: white;
+    height: 80px;
+    padding-left: 10px;
+    justify-self: center;
+    line-height: 80px;
+}
+h2 {
+    font-weight: 900;
+    padding: 30px 0px;
+    font-variant: normal;
+}
+main {
+    display: grid;
+    grid-template:". main ." /
+                    1fr 55ch 1fr;
+}
+
+.quotes {
+    grid-area: main;
+}
+
+.author-quote {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #c8e6c8;
+    font-style: italic;
+    text-align: center;
+}
+
+.author-quote .author {
+    margin-top: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Courgette', cursive;
+    text-align: right;
+}
+
+.musician-quote {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #bcdefb;
+    font-style: italic;
+    text-align: center;
+}
+
+.musician-quote .musician {
+    margin-top: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+}
