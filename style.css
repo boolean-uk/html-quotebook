@@ -55,3 +55,14 @@ article .originator {
     text-align: right;
 }
 
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    section {
+        margin: 0;
+    }
+  }
+
