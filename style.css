@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, q {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: darkred;
+    color: white;
+    padding: 2rem;
+}
+
+section {
+    width: 90%;
+    margin: 4rem auto;
+}
+
+article {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.technologists article {
+    background-color: rgb(128, 232, 128);
+}
+
+.technologists article:nth-child(2n) {
+    background-color: rgb(173, 232, 128);
+}
+
+.comicbook-artists article {
+    background-color: lightgoldenrodyellow;
+}
+
+.comicbook-artists article:nth-child(2n) {
+    background-color: rgb(250, 237, 210);
+}
+
+article .originator {
+    text-align: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    section {
+        margin: 0;
+    }
+  }
+
