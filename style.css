@@ -22,7 +22,7 @@ footer {
 }
 .main-heading {
   margin-left: 20px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 .secondary-heading {
@@ -49,8 +49,20 @@ footer {
   background-color: rgba(238, 178, 81, 0.834);
 }
 
+.quote-list:nth-child(odd):hover {
+  background-color: rgb(238, 178, 81);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .quote-list:nth-child(even) {
   background-color: rgba(91, 71, 157, 0.818);
+}
+
+.quote-list:nth-child(even):hover {
+  background-color: rgb(91, 71, 157);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .quote {
@@ -61,5 +73,5 @@ footer {
 
 .quoted {
   text-align: right;
-  font-family: 'Gilda Display', serif;
+  font-family: "Gilda Display", serif;
 }
