@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  margin: 0;
+}
+
+blockquote {
+  margin: 0;
+}
+
+/* header start */
+
+header {
+  background: #8C0031;
+  margin-top: 0;
+  height: 10vh;
+}
+
+h1 {
+  margin-top: 0;
+  color:white;
+  padding: 20px;
+  font-size: 2.5rem;
+}
+
+/* header end */
+
+/* main start */
+
+main {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 5rem 0;
+}
+
+/* main end */
+
+/* repeatables start */
+
+.grid{
+  display: grid;
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 40px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  text-align: center;
+}
+
+.media.card:nth-child(even) {
+  background: #C8E6C8;
+}
+
+.media.card:nth-child(odd) {
+  background-color: rgb(248, 248, 150);
+}
+
+.musicians.card:nth-child(even) {
+  background-color: pink;
+}
+
+.musicians.card:nth-child(odd) {
+  background-color: #BCDEFB;
+}
+
+.quote-name {
+  text-align: right;
+  padding-right: 7vw;
+}
+
+.card .quote {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: justify;
+}
+
+/* repeatables end */
