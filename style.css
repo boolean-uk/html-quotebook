@@ -21,8 +21,10 @@ header {
 
     display: flex;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 h1 {
+    font-family: 'Silkscreen', cursive;
     font-size: 3rem;
     color: white;
 }
@@ -44,7 +46,6 @@ h2 {
 
 .quote-class { /* Basic Quote Structure */
     border-radius: 0.5rem;   
-    background-color: #C8E6C8;
     padding: 20px;
 
     width: 50vw;
@@ -53,6 +54,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.green-box {
+    background-color: #C8E6C8;
+}
+.blue-box {
+    background-color: #BCDEFB;
 }
 
 .quote {
@@ -60,15 +69,19 @@ h2 {
     font-style: italic;
 
     text-align: center;
-
 }
 
 .author{
-
     font-variant: small-caps;
     font-weight: bold;
+    font-size: 0.8rem;
 
+    margin-top: 8px;
     text-align: end;
+}
+
+article span {
+    color: green;
 }
 
 /* End of Main */
