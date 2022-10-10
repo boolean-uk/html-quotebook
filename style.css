@@ -46,11 +46,11 @@ footer {
 }
 
 .quote-list:nth-child(odd) {
-  background-color: rgb(144, 238, 144);
+  background-color: rgba(238, 178, 81, 0.834);
 }
 
 .quote-list:nth-child(even) {
-  background-color: rgb(173, 216, 230);
+  background-color: rgba(91, 71, 157, 0.818);
 }
 
 .quote {
