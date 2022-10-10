@@ -44,14 +44,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-.authors {
-  background: #C8E6C8;
-}
-
-.musicians {
-  background-color: #BCDEFB;
-}
-
 /* main end */
 
 /* repeatables start */
@@ -69,11 +61,11 @@ h2 {
   text-align: center;
 }
 
-.authors.card:nth-child(even) {
+.media.card:nth-child(even) {
   background: #C8E6C8;
 }
 
-.authors.card:nth-child(odd) {
+.media.card:nth-child(odd) {
   background-color: rgb(248, 248, 150);
 }
 
