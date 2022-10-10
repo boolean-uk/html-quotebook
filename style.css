@@ -6,19 +6,23 @@
 
 body {
   font-family: sans-serif;
+  background-image: url(https://wallpapers.com/images/hd/4k-space-eye-formation-unmdcbrhea9nngay.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-.page-heading {
+.page-heading,
+footer {
   background-color: rgb(144, 9, 9);
   height: 100px;
   color: white;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
 }
 .main-heading {
   margin-left: 20px;
-  font-family: "Silkscreen", cursive;
+  font-family: 'Silkscreen', cursive;
 }
 
 .secondary-heading {
@@ -42,20 +46,12 @@ body {
 }
 
 .quote-list:nth-child(odd) {
-  background-color: rgba(144, 238, 144, 0.6);
+  background-color: rgb(144, 238, 144);
 }
 
 .quote-list:nth-child(even) {
-  background-color: rgba(173, 216, 230, 0.733);
+  background-color: rgb(173, 216, 230);
 }
-
-/* .green-quotes {
-  background-color: rgba(144, 238, 144, 0.6);
-}
-
-.blue-quotes {
-  background-color: rgba(173, 216, 230, 0.733);
-} */
 
 .quote {
   text-align: center;
@@ -65,5 +61,5 @@ body {
 
 .quoted {
   text-align: right;
-  font-family: "Gilda Display", serif;
+  font-family: 'Gilda Display', serif;
 }
