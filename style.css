@@ -4,14 +4,66 @@
   box-sizing: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .page-heading {
-  background-color: red;
+  background-color: rgb(144, 9, 9);
   height: 100px;
   color: white;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .main-heading {
   margin-left: 20px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
+}
+
+.secondary-heading {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.content-wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.author-quotes {
+  list-style: none;
+}
+
+.quote-list {
+  margin-bottom: 10px;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.quote-list:nth-child(odd) {
+  background-color: rgba(144, 238, 144, 0.6);
+}
+
+.quote-list:nth-child(even) {
+  background-color: rgba(173, 216, 230, 0.733);
+}
+
+/* .green-quotes {
+  background-color: rgba(144, 238, 144, 0.6);
+}
+
+.blue-quotes {
+  background-color: rgba(173, 216, 230, 0.733);
+} */
+
+.quote {
+  text-align: center;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.quoted {
+  text-align: right;
+  font-family: "Gilda Display", serif;
 }
