@@ -37,10 +37,13 @@ h2 {
 
     margin-left: auto;
     margin-right: auto;
+
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .quote-class { /* Basic Quote Structure */
-    border-radius: 8px;   
+    border-radius: 0.5rem;   
     background-color: #C8E6C8;
     padding: 20px;
 
@@ -49,8 +52,24 @@ h2 {
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
+.quote {
+    font-weight: bold;
+    font-style: italic;
+
+    text-align: center;
+
+}
+
+.author{
+
+    font-variant: small-caps;
+    font-weight: bold;
+
+    text-align: end;
+}
 
 /* End of Main */
 
