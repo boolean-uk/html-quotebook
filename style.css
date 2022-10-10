@@ -12,7 +12,7 @@ header {
 
 h1 {
   margin-top: 0;
-  color: white;
+  color:white;
   padding: 20px;
   font-size: 2.5rem;
 }
@@ -31,3 +31,21 @@ h2 {
 }
 
 /* main end */
+
+.authors{
+  display: grid;
+  grid-template-rows: rpeat(auto, 1fr);
+}
+
+.musicians{
+  display: grid;
+  grid-template-rows: rpeat(auto, 1fr);
+}
+
+.authors p{
+  background-color: rgb(208, 232, 208);
+}
+
+.musicians p{
+  background-color: skyblue;
+}
