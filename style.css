@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topHeader {
+    display: grid;
+    background-color: rgb(145, 13, 46);
+    height: 75px;
+    align-items: center;
+}
+
+.topHeader > h1 {
+    color: white;
+    padding-left: 15px;
+    font-family: serif;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: ". middlecol .";
+}
+
+.mainContent {
+    grid-area: middlecol;
+}
+
+.mainContent > section > h2 {
+    padding: 30px 30px 30px 0;
+}
+
+.quoteCard {
+    width: 100%;
+    background-color: rgb(199, 236, 199);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.quoteText {
+    text-align: center;
+    font-style: italic;
+    font-weight: 550;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.author {
+    text-align: right;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-family: serif;
+    font-size: 0.8rem;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.confuCard {
+    width: 100%;
+    background-color: rgb(184, 210, 233);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.quoteCard:nth-last-of-type(odd) {
+    color: green;
+}
+
+.confuCard:nth-child(even) {
+    color: blue;
+}
+
+footer {
+    display: grid;
+    background-color: rgb(145, 13, 46);
+    height: 50px;
+    align-items: center;
+}
+
+footer > p {
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
