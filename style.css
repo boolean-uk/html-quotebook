@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: large;
+}
+body {
+    background-color: #1d2d32;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 70px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #131d21;
+    font-size: 55px;
+}
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    padding: 30px 0px 30px 0px;
+    font-variant: normal;
+    color: white;
+}
+article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 60ch 1fr;
+    grid-template-areas: 
+    ". author ."
+    ". musician .";
+}
+.author {
+    grid-area: author;
+}
+.musician {
+    grid-area: musician;
+}
+.author-quote {
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #3d9cbe;
+    font-style: italic;
+    text-align: center;
+}
+.musician-quote {
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #fec74a;
+    font-style: italic;
+    text-align: center;
+}
+.name {
+    font-family: 'La Belle Aurore', cursive;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: right;
+}
+.donts {
+    color: rgb(245, 70, 70);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.dos {
+    color: rgb(87, 236, 97);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
