@@ -1,0 +1,52 @@
+p { 
+    margin: 5px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+h1 {
+    margin: 0 ;
+    margin-left: 5px;
+}
+main {
+    display: grid;
+    justify-content: center;
+}
+header {
+    background-color:darkred; 
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+section {
+    display: grid;
+    gap: 20px;
+    
+}
+section:last-child article {
+    background-color: lightblue;
+}
+article {
+   background-color: lightgreen;
+   border-radius: 10px;
+   }
+
+
+article p:first-child {
+    font-weight: normal;    
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+article p {
+    font-weight: bolder;
+    text-align: end;
+    font-size: 0.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
