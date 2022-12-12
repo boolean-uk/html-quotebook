@@ -129,3 +129,39 @@ main section .from-sub {
     font-style: italic;
     color: #999;
 }
+
+
+@media screen and (max-width: 700px) {
+    body {
+        grid-template-areas:
+        "header"
+        "nav"
+        "main";
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content auto auto;
+    }
+
+    nav {
+        grid-area: nav;
+        display: block;
+    }
+
+    nav ul {
+        position: sticky;
+        top: 0px;
+        padding-right: 0;
+        margin-top: 0;
+        display: flex;
+    }
+
+    nav li {
+        width: 100%;
+        justify-items: center;
+    }
+
+
+    nav ul li a {
+        padding: 10px 5px;
+    }
+
+}
