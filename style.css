@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template:
+        "header header header" 100px
+        " .     main     ." 1fr
+        "footer footer footer" 50px/
+        100px 1fr 100px;
+}
+
+header {
+    background-color: brown;
+    grid-area: header;
+}
+
+main {
+    background-color: bisque;
+    grid-area: main;
+}
+
+footer {
+    background-color: aquamarine;
+    grid-area: footer;
+}
