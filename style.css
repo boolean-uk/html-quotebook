@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav main .";
+    grid-template-columns: 1fr 60ch 1fr;
+    grid-template-rows: max-content auto;
+    background-color: #1e1e1e;
+    height: 500vh;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    background-color: #8C0031;
+}
+
+header h1 {
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header a {
+    margin: 2rem;
+    margin-left: auto;
+    padding: .5rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00000020;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #00000030;
+}
+
+main {
+    grid-area: main;
+}
+
+nav {
+    display: grid;
+    justify-items: right;
+}
+
+nav ul {
+    height: max-content;
+    list-style: none;
+    margin-top: 8rem;
+    padding-right: 2rem;
+    position: sticky;
+    top: 5rem;
+}
+
+nav li {
+    display: grid;
+    justify-items: right;
+    pointer-events: auto;
+    background-color: #252525;
+    border-bottom: solid 3px #252525;
+}
+
+nav li:first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+
+nav li:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav li a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav li:hover {
+    transition: all .3s ease;
+    background-color: #222;
+    border-color: #333;
+}
+
+main article h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+main section {
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    background-color: #252525;
+    border-radius: 5px;
+}
+
+main section .quote {
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main section .from {
+    text-align: right;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: #ccc;
+}
+
+main section .from-sub {
+    text-align: right;
+    font-family: sans-serif;
+    font-size: .8em;
+    font-style: italic;
+    color: #999;
+}
+
+
+@media screen and (max-width: 700px) {
+    body {
+        grid-template-areas:
+        "header"
+        "nav"
+        "main";
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content auto auto;
+    }
+
+    nav {
+        grid-area: nav;
+        display: block;
+    }
+
+    nav ul {
+        position: sticky;
+        top: 0px;
+        padding-right: 0;
+        margin-top: 0;
+        display: flex;
+    }
+
+    nav li {
+        width: 100%;
+        justify-items: center;
+    }
+
+
+    nav ul li a {
+        padding: 10px 5px;
+    }
+
+}
