@@ -43,7 +43,7 @@ h1:nth-child(2){
 }
 
 .table {
-    background-color: #292522;
+    background-color: #373e37;
 }
 
 .table-1 tr:hover {
@@ -95,7 +95,7 @@ h1:nth-child(2){
     width: 100%;
     margin-top: 50px;
     background-color:#292522;
-    color: white;
+    color: green;
     padding: 10px;
     text-align: center;
   }
