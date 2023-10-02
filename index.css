@@ -1,0 +1,103 @@
+
+
+.container {
+    width: 100vw;
+    display: grid;
+
+
+
+    grid-template:
+    "leftside                     main                        rightside" minmax(600px, 1fr) /
+    150px                    1fr                           150px;
+
+
+}
+
+
+/* .container >  div {
+    border: solid 1px gray;
+} */
+
+header {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+/* h2 {
+    text-align: start;
+} */
+
+.main {
+    display: grid;
+    grid-area: main;
+    /* padding: 20px; */
+
+    grid-template-columns: auto;
+
+    gap: 20px;
+}
+
+.firstauthur {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.secondauthur  {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.firstauthur > p:nth-of-type(2) {
+    color: red;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.secondauthur > p:nth-of-type(2) {
+    color: red;
+    text-align: end;
+    padding-right: 10px;
+}
+
+footer {
+    color:  white;
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: grid;
+    
+        grid-template:
+        "leftside main rightside" minmax(600px, 1fr) /
+        50px 1fr 50px;
+    }
+
+    header {
+        background-color: red;
+        padding: 1px 0 1px 1px;
+        background-color: gray;
+    }
+
+    footer {
+        background-color: gray;
+    }
+
+
+    .secondauthur > p:nth-of-type(2) {
+        color: grey;
+        text-align: end;
+        padding-right: 10px;
+    }
+
+    .firstauthur > p:nth-of-type(2) {
+        color: gray;
+        text-align: end;
+        padding-right: 10px;
+    }
+}
