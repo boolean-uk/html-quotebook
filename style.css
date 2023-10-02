@@ -1,4 +1,4 @@
-*{
+body{
     margin-top: 0;
     padding: 15px;;
 }
@@ -59,4 +59,21 @@ main{
 .authername{
     text-align: end;
     margin-right: 170px;
+}
+
+.quotes div:nth-child(2){
+    background-color: lightcoral;
+} 
+
+@media (max-width: 500px)
+{
+  header{
+    width: 10%;
+  }
+   .quotes{
+    font-size: 10px;
+    width: 10%;
+
+   }
+
 }
