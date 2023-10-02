@@ -1,6 +1,8 @@
 body{
     margin-top: 0;
     padding: 15px;;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
 }
 
 header{
@@ -59,6 +61,11 @@ main{
 .authername{
     text-align: end;
     margin-right: 170px;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .quotes div:nth-child(2){
