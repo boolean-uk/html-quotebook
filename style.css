@@ -19,4 +19,21 @@ main {
 blockquote {
   margin: 20px 0;
   background-color: pink;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
 }
+
+blockquote > p {
+  margin-bottom: 10px;
+}
+
+blockquote > footer {
+  text-align: right; 
+  font-variant: small-caps;
+}
+
+blockquote:nth-child(2n) {
+  background-color: rgb(186, 223, 223)
+}
+
