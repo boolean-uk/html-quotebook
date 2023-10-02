@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 
+
+    "header" 100px
+    "main" 1fr
+    "footer"100px/
+       1fr;
+}
+
+h1 {
+    background-color: rgb(135, 11, 46);
+    color: white;
+    font-variant: small-caps;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.author-quotes {
+    padding-bottom: 5px;
+}
+
+main {
+    display: grid;
+    overflow-y: scroll;
+    padding: 20px 15% 0 15%;
+    grid-template: 
+
+    "author-quotes" 50px
+    "box1" 100px
+    "box2" 100px
+    "box3" 100px
+    "sport-quotes" 50px
+    "box4" 100px
+    "box5" 100px
+    "footer" 50px/
+      1fr;
+}
+
+.box1 {
+    
+    border: solid 1px rgb(202, 245, 202);
+    background-color: rgb(202, 245, 202);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.quote1 {
+    display: grid;
+    justify-content: center;
+    font-family: 'ysabeau infant', sans-serif;
+    line-height: 1.5;
+}
+
+.quote-author1 {
+    display: grid;
+    justify-content: end;
+    font-variant: small-caps;
+    margin-right: 15px
+}
+
+.box2 {
+    border: solid 1px rgb(202, 245, 202);
+    background-color: rgb(202, 245, 202);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+.quote2 {
+    display: grid;
+    justify-content: center;
+    font-family: 'ysabeau infant', sans-serif;
+    line-height: 1.5;
+    padding: 0 30px 0 30px;
+}
+
+.quote-author2 {
+    display: grid;
+    justify-content: end;
+    font-variant: small-caps;
+    margin-right: 15px
+}
+
+.box3 {
+    border: solid 1px rgb(202, 245, 202);
+    background-color: rgb(202, 245, 202);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.quote3 {
+    display: grid;
+    justify-content: center;
+    font-family: 'ysabeau infant', sans-serif;
+    line-height: 1.5;
+    padding: 0 30px 0 30px;
+}
+
+.quote-author3 {
+    display: grid;
+    justify-content: end;
+    font-variant: small-caps;
+    margin-right: 15px
+}
+
+.sport-quotes{
+    margin-bottom: 30px;
+}
+
+.box4 {
+    border: solid 1px rgb(190, 220, 245);
+    background-color: rgb(190, 220, 245);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sport1 {
+    display: grid;
+    justify-content: center;
+    font-family: 'ysabeau infant', sans-serif;
+    line-height: 1.5;
+    padding: 0 30px 20px 30px;
+}
+
+
+.quote-sport1 {
+    display: grid;
+    justify-content: end;
+    font-variant: small-caps;
+    margin-right: 15px
+}
+
+.box5 {
+    border: solid 1px rgb(190, 220, 245);
+    background-color: rgb(190, 220, 245);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sport2 {
+    display: grid;
+    justify-content: center;
+    font-family: 'ysabeau infant', sans-serif;
+    line-height: 1.5;
+    padding: 0 30px 0 30px;
+}
+
+
+.quote-sport2 {
+    display: grid;
+    justify-content: end;
+    font-variant: small-caps;
+    margin-right: 15px
+}
+
+footer {
+    background-color: rgb(135, 11, 46);;
+    padding-top: 20px;
+    
+   
+}
