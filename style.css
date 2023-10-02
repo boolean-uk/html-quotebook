@@ -17,15 +17,40 @@ main {
 }
 
 blockquote {
+  position: relative;
+
   margin: 20px 0;
   background-color: pink;
   line-height: 1.6;
   padding: 20px;
-  text-align: center;
+  text-align: justify;
+
+  border-radius: 1ch;
 }
 
 blockquote > p {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+blockquote > p::before {
+  position: absolute;
+  font-size: 40px;
+
+  top: 0;
+  left: 5px;
+
+  content: '"';
+}
+
+blockquote > p::after {
+  position: relative;
+  content: '"';
+
+  bottom: -30px;
+
+  font-size: 40px;
+
+  line-height: 12px;
 }
 
 blockquote > footer {
@@ -37,3 +62,7 @@ blockquote:nth-child(2n) {
   background-color: rgb(186, 223, 223)
 }
 
+.red {
+  color: red;
+  text-shadow: 1px 1px 5px;
+}
