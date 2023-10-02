@@ -114,6 +114,7 @@ body {
     place-content: center;
     font-family: 'Dancing Script', cursive;
     background-color: rgb(42, 79, 165);
+    line-height: 1.5;
 
 }
 
@@ -130,6 +131,7 @@ body {
     place-content: center;
     font-family: 'Dancing Script', cursive;
     background-color: rgb(42, 79, 165);
+    line-height: 1.5;
 }
 
 .quoteThree > p + p {
@@ -182,7 +184,7 @@ body {
 }
 
 .QuoteFour > p + p {
-    padding-left: 650px;
+    padding-left: 600px;
 }
 
 .QuoteFive {
@@ -215,7 +217,7 @@ body {
 }
 
 .QuoteSix > p + p {
-    padding-left: 650px;
+    padding-left: 600px;
 }
 
 
@@ -258,6 +260,7 @@ body {
     place-content: center;
     font-family: 'Dancing Script', cursive;
     background-color: rgb(42, 79, 165);
+    line-height: 1.5;
 }
 
 
@@ -276,6 +279,7 @@ body {
     place-content: center;
     font-family: 'Dancing Script', cursive;
     background-color: rgb(42, 79, 165);
+    line-height: 1.5;
 }
 
 
