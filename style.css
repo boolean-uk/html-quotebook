@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Spectral', serif;
+}
+
+/*main header and navigation*/
+header {
+    background-color: rgb(157, 225, 147);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 60px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.273);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    height: 100%;
+    width: calc(100% - 162px);
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li {
+    display: inline;   
+    width: fit-content;
+    place-self: center;
+}
+
+li > a {
+    color: rgb(32, 8, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: inline;
+    position: absolute;
+    top: 5px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+/*main structure*/
+main {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    ". contents .";
+    padding-top: 40px;
+
+}
+
+#container {
+    grid-area: contents;
+}
+
+.category {
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.quote {
+    margin: 20px 0;
+    position: relative;
+    padding: 10px 10px 50px 10px;
+    box-shadow: 2px 2px 20px rgb(199, 199, 199);
+}
+
+.quote-content:before,
+.quote-content:after {
+    content: '"';
+    font-weight: bold; 
+}
+
+.quote:nth-child(2n) {
+    color: rgb(17, 91, 202);
+}
+
+.author {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+/*general typography*/
