@@ -29,8 +29,11 @@ main {
 }
 
 .author-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
     padding-top: 10px;
     text-align: end;
+    text-shadow: none;
 }
 
 h1 {
