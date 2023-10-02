@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8c0031;
+    padding: 2rem 0;
+    z-index: 999;
+}
+
+header h1 {
+    position: relative;
+    left: 40px;
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+/* Quotes */
+
+main {
+    display: grid;
+    margin-top: 113px;
+    padding: 1.7rem 12vw;
+    gap: 10px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+.container > h2 {
+    font-family: "Roboto";
+}
+
+.author, .philosopher {
+    display: grid;
+    gap: 25px;
+}
+
+.quote {
+    display: grid;
+    gap: 20px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.quote__top {
+    text-align: center;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.quote__bottom > span {
+    position: relative;
+    float: right;
+    font-family: "Young Serif";
+}
+
+.quote:nth-child(even) {
+    background-color: #fcfcaf;
+}
+
+.author__quote {
+    background-color: #cbe8ca;
+}
+
+.philosopher__quote {
+    background-color: #beddf8;
+}
+
