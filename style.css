@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 18px;
 }
 
 /* GENERIC STYLES */
@@ -23,20 +22,6 @@ h2 {
    text-decoration: underline;
 }
 
-p {
-    font-style: italic;
-    line-height: 1.5;
-
-}
-
-span {
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 12px;
-    display: grid;
-    justify-self: end;
-}
-
 /* HEADER */
 header {
     display: grid;
@@ -49,10 +34,9 @@ header {
 .winnie-quote-container {
     display: grid;
     grid-template-rows: auto 20px;
-    gap: 5px;
-    justify-items: center;
+    gap: 10px;
     align-content: center;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     box-shadow: 0 0 6px palegoldenrod;
     padding: 0 5%;
@@ -64,10 +48,10 @@ header {
 .tigger-quote-container {
     display: grid;
     grid-template-rows: auto 20px;
-    gap: 5px;
+    gap: 10px;
     justify-items: center;
     align-content: center;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     box-shadow: 0 0 6px orange;
     padding: 0 5%;
@@ -79,10 +63,10 @@ header {
 .eeyore-quote-container {
     display: grid;
     grid-template-rows: auto 20px;
-    gap: 5px;
+    gap: 10px;
     justify-items: center;
     align-content: center;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     box-shadow: 0 0 6px lightsteelblue;
     padding: 0 5%;
@@ -94,16 +78,33 @@ header {
 .piglet-quote-container {
     display: grid;
     grid-template-rows: auto 20px;
-    gap: 5px;
+    gap: 10px;
     justify-items: center;
     align-content: center;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     box-shadow: 0 0 6px lightpink;
     padding: 0 5%;
     margin: 30px 0;
     text-align: center;
     background-color: lightpink;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+    font-family: 'Dancing Script', cursive;
+    align-self: center;
+}
+
+span {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 12px;
+    display: grid;
+    justify-self: end;
+    align-self: center;
 }
 
 /* FOOTER */
