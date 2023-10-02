@@ -1,0 +1,130 @@
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* GENERIC STYLES */
+h1 {
+    padding-left: 20px;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 3px blue, 4px 4px 10px green;
+}
+
+article {
+    margin: 50px 20%;
+}
+
+h2 {
+   font-size: 30px;
+   text-decoration: underline;
+}
+
+/* HEADER */
+header {
+    display: grid;
+    align-content: center;
+    height: 100px;
+    background-color: darkred;
+}
+
+/* MAIN */
+.winnie-quote-container {
+    display: grid;
+    grid-template-rows: auto 20px;
+    gap: 10px;
+    align-content: center;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px palegoldenrod;
+    padding: 0 5%;
+    margin: 30px 0;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+.tigger-quote-container {
+    display: grid;
+    grid-template-rows: auto 20px;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px orange;
+    padding: 0 5%;
+    margin: 30px 0;
+    text-align: center;
+    background-color: orange;
+}
+
+.eeyore-quote-container {
+    display: grid;
+    grid-template-rows: auto 20px;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px lightsteelblue;
+    padding: 0 5%;
+    margin: 30px 0;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+.piglet-quote-container {
+    display: grid;
+    grid-template-rows: auto 20px;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px lightpink;
+    padding: 0 5%;
+    margin: 30px 0;
+    text-align: center;
+    background-color: lightpink;
+}
+
+p {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.5;
+    font-family: 'Dancing Script', cursive;
+    align-self: center;
+}
+
+.winnie-quote-container:nth-child(even) {
+    color: rgb(137, 5, 107);
+}
+
+.tigger-quote-container:nth-child(even) {
+    color: rgb(51, 15, 149);
+}
+
+.eeyore-quote-container:nth-child(even) {
+    color: rgb(0, 110, 0);
+}
+
+.piglet-quote-container:nth-child(even) {
+    color: darkblue;
+}
+
+span {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 12px;
+    display: grid;
+    justify-self: end;
+    align-self: center;
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    background-color: darkred;
+}
