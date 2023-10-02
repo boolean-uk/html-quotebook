@@ -1,0 +1,68 @@
+html {
+    font-family: sans-serif;
+    margin: 0px 100px 0px 100px;
+}
+
+.main-header {
+    background-color: rgb(183, 18, 73);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: grid; 
+    grid-template-columns: 1fr 70ch 1fr;
+    grid-template-areas: 
+    ". author-quotes ."
+    ". musician-quotes .";
+    gap: 20px;
+}
+
+.author-quotes {
+    display: grid;
+    grid-area: author-quotes;
+    gap: 15px;
+}
+
+.author-quotes h2 {
+ font-size: 30px;
+ text-align: flex-start;
+}
+
+.author-quotes div {
+    background-color: rgb(206, 242, 215);
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+}
+.author-quotes .text{
+    font-size: 20px;
+}
+.author-quotes .name {
+    text-align: end;
+    padding-right: 10px;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.musician-quotes {
+    display: grid;
+    grid-area: musician-quotes;
+}
+.musician-quotes h2{
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;
+}
+.musician-quotes p {
+ background-color: rgb(162, 211, 230);
+}
+.musician-quotes .text {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
