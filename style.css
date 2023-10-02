@@ -28,6 +28,11 @@ main {
     margin: 20px;
 }
 
+.quote:nth-child(2n){
+    background-color: rgba(255, 133, 2, 0.556);
+    border-color: rgb(239, 85, 7);
+}
+
 .author-name {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
@@ -40,7 +45,3 @@ h1 {
     padding-top: 10px;
 }
 
-.scientist-quotes .quote {
-    background-color: rgba(255, 133, 2, 0.556);
-    border-color: rgb(239, 85, 7);
-}
