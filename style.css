@@ -10,6 +10,7 @@ html {
 
 header {
   background-color: #8c0031;
+  height: 100px;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
   height: 85px;
   padding-left: 20px;
   justify-self: center;
-  line-height: 80px;
+  line-height: 90px;
 }
 
 h2 {
