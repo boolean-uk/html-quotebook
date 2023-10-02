@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab";
+}
+
+header {
+  background-color: cadetblue;
+}
+
+main {
+  margin: 20px 20vw;
+}
+
+blockquote {
+  margin: 20px 0;
+  background-color: pink;
+}
