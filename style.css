@@ -81,11 +81,11 @@ font-family: 'Sedgwick Ave Display', cursive;
 @media (max-width: 500px)
 {
   header{
-    width: 10%;
+    font-size: 15px;
+    width: 100%;
   }
    .quotes{
     font-size: 10px;
-    width: 10%;
 
    }
 
