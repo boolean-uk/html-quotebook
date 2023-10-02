@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    color:rgba(255, 255, 255, 0.86);
+
+
+}
+
+.container {
+    display: grid;
+    grid-template: 
+    "header     header      header" 90px
+    "left       main        right" 1fr/
+    200px         1fr         200px;
+   padding: 5px;
+   gap: 5px;
+}
+
+.header {
+    grid-area: header;
+    /* border: 1px black dashed; */
+    padding: 25px;
+    background-color: rgb(42, 79, 165);
+    
+}
+
+.header1 {
+    font-family: 'Gabarito', cursive;
+    color:rgba(255, 255, 255, 0.86);
+}
+
+.left {
+    grid-area: left;
+    /* border: 1px black dashed; */
+}
+
+.main {
+    grid-area: main;
+    /* border: 1px black dashed; */
+
+    display: grid;
+    grid-template: 
+   "container-main1"
+   "container-main2"
+   "container-main3";
+
+    grid-template-rows:  repeat(3, minmax(500px, auto));
+    
+    padding: 5px;
+    gap: 5px;
+}
+
+.container-main1 {
+    grid-area: container-main1;
+    /* border: 1px black dashed; */
+   
+   display: grid;
+   grid-template: 
+   "title-inspo"
+   "quoteOne"
+   "quoteTwo"
+   "quoteThree"
+   ;
+   grid-template-rows: 70px 1fr 1fr 1fr;
+   padding: 5px;
+    gap: 15px;
+}
+
+.title-inspo {
+    grid-area: title-inspo;
+    /* border: 1px black dashed; */
+}
+
+.title-inspo > h2 {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: 'Gabarito', cursive;
+    font-size: 30px;
+    color: black;
+   
+    
+}
+
+.quoteOne {
+    grid-area: quoteOne;
+    /* border: 1px black dashed; */
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    /* line-height: 1.3; */
+    background-color: rgb(42, 79, 165);
+    color: white;
+
+
+
+}
+
+.quoteOne > p +p {
+    padding-left: 650px;
+}
+
+.quoteTwo {
+    grid-area: quoteTwo;
+    /* border: 1px black dashed; */
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+    line-height: 1.5;
+
+}
+
+.quoteTwo > p +p {
+    padding-left: 650px;
+}
+
+.quoteThree {
+    grid-area: quoteThree;
+    /* border: 1px black dashed; */
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+    line-height: 1.5;
+}
+
+.quoteThree > p + p {
+    padding-left: 650px;
+}
+
+.container-main2 {
+    grid-area: container-main2;
+    /* border: 1px black dashed; */
+
+
+    display: grid;
+   grid-template: 
+   "title-road-to-success"
+   "QuoteFour"
+   "QuoteFive"
+   "QuoteSix"
+   ;
+   grid-template-rows: 70px 1fr 1fr 1fr;
+   padding: 5px;
+   gap: 15px;
+   
+}
+
+.title-road-to-success {
+    grid-area: title-road-to-success;
+    /* border: 1px black dashed; */
+}
+
+.title-road-to-success > h2 {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: 'Gabarito', cursive;
+    font-size: 30px;
+    color: black;
+   
+    
+}
+
+.QuoteFour {
+    grid-area: QuoteFour;
+    /* border: 1px black dashed; */
+    
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+}
+
+.QuoteFour > p + p {
+    padding-left: 600px;
+}
+
+.QuoteFive {
+    grid-area: QuoteFive;
+    /* border: 1px black dashed; */
+
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+}
+
+.QuoteFive > p + p {
+    padding-left: 650px;
+}
+
+
+.QuoteSix {
+    grid-area: QuoteSix;
+    /* border: 1px black dashed; */
+
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+}
+
+.QuoteSix > p + p {
+    padding-left: 600px;
+}
+
+
+.container-main3 {
+    grid-area: container-main3;
+    /* border: 1px black dashed; */
+
+    display: grid;
+    grid-template: 
+    "famous-people"
+    "QuoteSeven"
+    "QuoteEight"
+    "QuoteNine"
+    ;
+    grid-template-rows: 70px 1fr 1fr 1fr;
+    padding: 5px;
+    gap: 15px;   
+}
+
+.famous-people {
+    grid-area: famous-people;
+    /* border: 1px black dashed; */
+}
+
+.famous-people > h2 {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: 'Gabarito', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+.QuoteSeven {
+    grid-area: QuoteSeven;
+    /* border: 1px black dashed; */
+
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+    line-height: 1.5;
+}
+
+
+.QuoteSeven > p + p {
+    padding-left: 650px;
+}
+
+
+.QuoteEight{
+    grid-area: QuoteEight;
+    /* border: 1px black dashed; */
+
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+    line-height: 1.5;
+}
+
+
+.QuoteEight > p + p {
+    padding-left: 650px;
+
+    
+}
+
+
+.QuoteNine{
+    grid-area: QuoteNine;
+    /* border: 1px black dashed; */
+
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(42, 79, 165);
+
+}
+
+
+.QuoteNine > p + p {
+    padding-left: 650px;
+
+    
+}
+
+.right {
+    grid-area: right;
+    /* border: 1px black dashed; */
+}
