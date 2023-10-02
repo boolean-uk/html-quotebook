@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Young+Serif&display=swap');
+
+* {
+  font-family: 'Young Serif', serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.contentBox {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+}
+
+h1 {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 3em 0 1em 0;
+}
+
+.quote {
+  font-family: 'Young Serif', serif;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 100px 0 50px 0;
+  position: 0;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  background: rgb(255,255,255);
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.25) 100%);
+}
+
+.quote:nth-of-type(even) {
+  background-color: rgba(238, 227, 199,0.25);
+  background: linear-gradient(-135deg, rgb(238, 227, 199) 0%, rgba(238, 227, 199,0.25) 100%);
+}
+
+.quote::before {
+  content: url(images/icon-quote-dark.svg);
+  float: left;
+  margin: 10px;
+  position: relative;
+  top: -100px;
+  left: -80px;
+  width: 30px;
+  height: 0px;
+}
+
+.quote .source {
+  font-family: 'Inter', sans-serif;
+  margin-top: 20px;
+  text-align: end;
+}
+
+.quote .source::before {
+  content: "– ";
+}
+
+.content p {
+  font-family: 'Young Serif', serif;
+  line-height: 2em;
+}
+
+.content p+p {
+  margin-top: 1em;
+}
