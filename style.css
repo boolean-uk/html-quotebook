@@ -1,0 +1,37 @@
+
+
+section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box > p:last-of-type{
+    text-align: right;
+  font-size: 20px;  
+}
+
+.box > p:first-of-type{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style : italic;
+    font-size: 30px;
+}
+
+
+h1{
+    background-color: rgb(82, 147, 82);
+    display: grid;
+    font-size: 50px;
+    height: 100px;
+    grid-auto-flow: column;
+    align-items: center;
+}
+h2{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.box{
+    padding: 10px;
+    background-color:lightblue;
+}
