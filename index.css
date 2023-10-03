@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+Header {
+    background-color: rgb(168, 10, 10);
+    height: 50px;
+    color: white;
+}
+.Art-1 {
+    display: grid;
+    grid-template:
+    "Author-Quotes"  100px
+    "Author-Quotes-2" 100px
+    "Author-Quotes-3" 100px;
+    gap :10px;
+    margin: 0 30%;
+    margin-top: 20px;
+}
+.Art-2 {
+    display: grid;
+    grid-template:
+    "Proverbs"  100px
+    "Proverbs1" 100px
+    "Proverbs2" 100px;
+    gap :10px;
+    margin: 0 30%;
+    margin-top: 20px;
+
+}
