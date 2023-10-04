@@ -1,0 +1,75 @@
+
+/* font-family: 'Freehand', cursive;
+font-family: 'Sofia', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #000000;
+    align-items: center;
+}
+
+header {
+    background-color: #ef1099;
+    height:fit-content
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+    font-family: "Sofia";
+    font-style: italic;
+    font-size: 70px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+
+h2 {
+    color: rgb(255, 251, 0);
+    font-family: "Sofia";
+    font-style: italic;
+    font-size: 70px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+
+.quote {
+    font-family: "freehand";
+    font-style: italic;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 100px 0 50px 0;
+    position: 0;
+    text-align: left;
+    letter-spacing: 0.05em;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(0,0,0,0) 29%, rgba(255,0,189,1) 63%, rgba(0,212,255,1) 100%);
+}
+
+  .quote .autorName {
+    font-family: 'Freehand', cursive;
+    margin-top: 20px;
+    text-align: end;
+  }
+
+  .quote .autorName::before {
+    content: '– ';
+  }
+
+p {
+    color: rgb(0, 255, 76);
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #000000;
+}
