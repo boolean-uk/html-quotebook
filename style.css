@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: antiquewhite;
+}
+
+.quote-box-one,
+.quote-box-two{
+  padding: 20px 200px;
+  margin: 5px 100px;
+}
+
+h1{
+  background-color: brown;
+  color: rgb(250, 235, 215);
+  display: block;
+  padding: 40px;
+}
+
+.grid-one,
+.grid-two{
+
+  display: grid;
+  grid-template-rows: repeat(3, 102px);
+  gap: 40px;
+  color: antiquewhite;
+}
+
+
+
+.quote-one{
+  background-color: maroon;
+  font-size: 20px;
+}
+
+.quote-two{
+  background-color: sienna;
+  font-size: 17px;
+}
+
+
+.quote-one,
+.quote-two{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.author{
+  font-weight: bold;
+  font-style: italic;
+}
