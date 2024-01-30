@@ -16,11 +16,8 @@ body {
 
 .group-container {
     display: grid;
+    place-content: center;
     color: white;
-}
-
-.group {
-    place-self: center;
 }
 
 .quote {
