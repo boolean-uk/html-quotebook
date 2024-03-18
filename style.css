@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+h1 {
+  padding: 20px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+}
+h2 {
+  margin: 1rem 0 1rem 0;
+}
+
+main {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 500px;
+  height: 100vh;
+}
+
+article section {
+  border-radius: .8rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-auto-rows: repeat(auto-fill,minmax(.5fr , 1fr));
+}
+.author {
+  background-color: bisque;
+}
+.musician {
+  background-color: aquamarine;
+}
+
+article section h4 {
+  margin: 1rem 2rem 1rem 2rem;
+  span {
+    display: block;
+    margin: .5rem 1rem .5rem 1rem;
+    text-align: end;
+    font-size: 12px;
+  }
+}
