@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Charis;
+    src: url(/assets/Charis_SIL/CharisSIL-Regular.ttf);
+  }
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Charis;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+header {
+    width: 100%;
+    background-color:cadetblue;
+    height: 100px;
+    display: grid;
+    place-items: center start;
+    padding-left: 20px;
+    color:antiquewhite
+}
+
+main {
+    display: grid;
+    place-items: start center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.quote-plaque {
+    width: 300px;
+    margin-top: 25px;
+    display: grid;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(193, 193, 193);
+    background-color:rgb(176, 217, 212);
+}
+
+.quote-plaque .quote {
+    place-self: center;
+}
+
+.quote-plaque .quoter-name {
+    place-self: end;
+    padding-right: 10px;
+}
+
+.quote-plaque:nth-child(odd) {
+    background-color: rgb(208, 163, 178);
+}
+
+.add-new-quote {
+    margin-top: 25px;
+    display: grid;
+}
+
+.add-new-quote * {
+    margin-top: 10px;
+}
+
+.add-new-quote #quote-input {
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
