@@ -6,11 +6,12 @@ body {
     background-color: rgb(43, 43, 44);
 }
 
+
 header {
-    background-color: rgb(141, 113, 156);
+    background-color: rgb(96, 70, 110);
     padding-left: 1rem;
     line-height: 3rem;
-    box-shadow: 1px 5px 5px darkgrey;
+    box-shadow: 1px 7px 15px rgb(149, 60, 60);
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -28,12 +29,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(216, 213, 177);
+    color: rgb(205, 197, 110);
 }
 
 .go-to-top {
     text-decoration: none;
-    color: rgb(216, 213, 177);
+    color: rgb(205, 197, 110);
 }
 
 main {
@@ -47,15 +48,17 @@ main {
 article {
     display: grid;
     grid-template:
-        'title' 30px
+        'title' 50px
         'quotes' auto;
-    gap: 1rem;
+    gap: 2.5rem;
     margin-top: 2rem;
+    color: rgb(216, 213, 177);
 }
 
 article h2 {
     grid-area: title;
-    padding-left: 5rem;
+    padding: 1rem 5rem;
+    align-self: center;
     background-color: rgb(38, 101, 160);
 }
 
@@ -63,7 +66,7 @@ article h2 {
     grid-area: quotes;
     display: grid;
     grid-template-rows: auto;
-    gap: 10px;
+    gap: 1.2rem;
 }
 
 section {
@@ -86,4 +89,5 @@ span {
     grid-area: book;
     /* margin-left: 80%; */
     font-style: italic;
+    color: rgb(155, 148, 69);
 }
