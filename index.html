@@ -5,9 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="/script.js" defer></script>
     <title>QuoteBook</title>
   </head>
   <body>
+    <header>
+      <h1>Quotebook</h1>
+    </header>
+    <main>
+      <section class="author-quotes">
+        <h2>Author Quotes</h2>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Oscar Wilde</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Dr Seuss</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- R L Stine</small></p>
+        </article>
+      </section>
 
+      <section class="musician-quotes">
+        <h2>Musician Quotes</h2>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Natalie Imbruglia</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Muse</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Metallica</small></p>
+        </article>
+      </section>
+
+      <section class="actor-quotes">
+        <h2>Actor Quotes</h2>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Tom Cruise</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Cameron Diaz</small></p>
+        </article>
+        <article class="quote-plaque">
+          <p class="quote"><em>"Lorem ipsum dolor sit amet"</em></p>
+          <p class="quoter-name"><small>- Metallica</small></p>
+        </article>
+      </section>
+
+      <section class="add-new-quote">
+        <h2>Add a New Quote</h2>
+        <select id="quote-type">
+          <option value="author">Author</option>
+          <option value="musician">Musician</option>
+          <option value="actor">Actor</option>
+        </select>
+        <input id="quoter-input" type="text" placeholder="Who made the quote...">
+        <textarea id="quote-input" placeholder="Write quote here..."></textarea>
+        <button id="submit-quote-button">Add</button>
+      </section>
+    </main>
   </body>
 </html>
