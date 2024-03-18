@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 1.4rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Header */
+header {
+    background-color: #8C0031;
+    color: white;
+
+    display: grid;
+    align-content: center;
+    padding-left: 20px;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template: 
+    '. quotes .' auto /
+    1fr 75ch 1fr;
+    padding: 30px 0px;
+}
+
+.quotes {
+    grid-area: quotes;
+    display: grid;
+    gap: 2rem;
+}
+
+.quote-section {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.quote {
+    border-radius: 10px;
+
+    padding: 20px 30px;
+}
+
+.author-quote {
+    background-color: #C8E6C8;
+}
+
+.musician-quote {
+    background-color: #BCDEFB;
+}
+
+.quote-content {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name {
+    display: grid;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.author-quote:nth-child(even) {
+    background-color: #c8e6c869;
+}
+
+.musician-quote:nth-child(even) {
+    background-color: #bcdefb7c;
+}
+
+.movie-quote {
+    background-color: #c26868;
+}
+
+.movie-quote:nth-child(even) {
+    background-color: #c268688c;
+}
+
+.general-quote {
+    background-color: #d9db66;
+}
+
+.general-quote:nth-child(even) {
+    background-color: #d9db668a;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(49, 49, 100);
+    color: white;
+
+    display: grid;
+    align-content: center;
+    padding-left: 20px;
+}
