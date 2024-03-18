@@ -52,16 +52,8 @@ article {
     gap: 1rem;
 }
 
-.popular-quotes article {
-    background-color: rgba(217, 159, 84, 0.623);
-}
-
-.author-quotes article {
-    background-color: rgba(225, 69, 69, 0.598);
-}
-
-.celebrity-quotes article {
-    background-color: rgba(60, 174, 200, 0.574);
+article:nth-child(even) {
+    background-color: #E5E5E5;
 }
 
 summary p {
