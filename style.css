@@ -52,7 +52,9 @@ article {
     gap: 1rem;
 }
 
-article:nth-child(even) {
+.popular-quotes article:nth-child(even), 
+.author-quotes article:nth-child(odd), 
+.celebrity-quotes article:nth-child(even) {
     background-color: #E5E5E5;
 }
 
