@@ -1,0 +1,116 @@
+body {
+    font-size: 12px;
+    margin: ;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: #4c8b41;
+}
+
+header h1{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border: 20px;
+    padding: 20px;
+    background-color: grey;
+    
+}
+
+header img {
+    position: absolute;
+    top: 30px;
+    left : 10px;
+    width: 50px;
+    height: auto;
+    z-index: 1;
+}
+
+main {
+    margin: 0px auto;
+    text-align: left;
+    width: 970px;
+    background-color: white;
+    display: grid;
+}
+
+blockquote {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    padding: 0;
+    grid-column-gap: 5px;
+    grid-template-rows: auto;
+    
+}
+
+blockquote p {
+    padding: 0;
+    margin: 20px 0;
+    background-color: ;
+   
+}
+
+.programming-quotes {
+margin: 20px;
+}
+
+.programming-quotes h2 {
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.entertainment-quotes {
+    
+    margin: 20px;
+    }
+    
+.entertainment-quotes h2 {
+        text-align: left;
+        padding-left: 10px;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.inspirational-quotes {
+    
+    margin: 10px;
+        }
+        
+.inspirational-quotes h2 {
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.political-quotes {
+
+    margin: 10px;
+    }
+    
+.political-quotes h2 {
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+
+footer {
+    display: block;
+   background-color: grey;
+
+}
+
+strong {
+    color: red;
+}
