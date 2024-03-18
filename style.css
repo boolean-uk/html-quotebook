@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Noto Sans Glagolitic", sans-serif;
+}
+
+body {
+    background-color: #95caed;
+    color: #242424;
+}
+
+.container {
+    display: grid;
+    grid-template: 
+        'header' 110px
+        'main' minmax(80px, 1fr)
+        'footer' 80px;
+    gap: 1rem;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: grid;
+    grid-template: 
+        'artist-quotes'
+        'author-quotes'
+        'historical-quotes'
+        'road-rage';
+    gap: 1rem;
+    line-height: 2rem;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    margin: 20px;
+}
+
+article {
+    display: grid;
+    grid-template: 
+        'figure summary' / 100px 60ch;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+
+summary p {
+    font-size: 20px;
+}
+
+summary strong {
+    font-size: 18px;
+}
+
+figure {
+    height: 100px;
+}
+
+header, footer {
+    display: grid;
+    padding: 20px;
+    align-items: center;
+}
+
+header {
+    border-bottom: solid 1px #000000;
+}
+
+footer {
+    border-top: solid 1px #E5E5E5;
+}
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Ext 2*/
+
+.artist-quotes article {
+    background-color: white;
+    border-style: solid;
+    border-color:red;
+  }
+
+.author-quotes article {
+    background-color: white;
+    border-style: solid;
+    border-color:rgb(250, 12, 222);
+  }
+
+.historical-quotes article {
+    background-color: white;
+    border-style: solid;
+    border-color:rgb(255, 115, 0);
+  }
+
+.bonus-quote article {
+    background-color: white;
+    border-style: solid;
+    border-color:rgb(247, 255, 25);
+  }

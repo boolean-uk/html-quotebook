@@ -4,10 +4,189 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>QuoteBook</title>
   </head>
   <body>
+
+    <div class="container">
+
+      <header>
+        <h1>QuoteBook</h1>
+      </header>
+      
+      <main>
+        <section class="artist-quotes">
+
+          <h2>Artist Quotes</h2>
+          
+          <article>
+            <figure>
+              <img
+                src="https://www.jerrysartarama.com/blog/images/2013/03/Famous-Artist-Quotes-Kahlo.jpg"
+                alt="Frida IMG"
+              />
+            </figure>
+            <summary>
+              <p>“I never paint dreams or nightmares. I paint my own reality.”</p>
+              <strong>- Frida Khalo</strong>
+            </summary>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/440px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg" 
+                alt="Van Gogh IMG"
+              />
+            </figure>
+            <summary>
+              <p>“...and then, I have nature and art and poetry, and if that is not enough, what is enough?”</p>
+              <strong>- Vincent Van Gogh</strong>
+            </summary>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="https://i.etsystatic.com/8711792/r/il/853ff8/516391349/il_1080xN.516391349_i9lw.jpg" 
+                alt="Picasso IMG"
+              />
+            </figure>
+            <summary>
+              <p>“Action is the foundational key to all success.”</p>
+              <strong>- Pablo Picasso</strong>
+            </summary>
+          </article>
+
+        </section>
+
+        <section class="author-quotes">
+
+          <h2>Author Quotes</h2>
+
+            <article>
+            <figure>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/1200px-Shakespeare.jpg" 
+                alt="A picture of  William Shakespeare"
+              />
+            </figure>
+            <summary>
+              <p>“Brevity Is The Soul Of Wit.”</p>
+              <strong>- William Shakespeare</strong>
+            </summary>
+          </article>
+          
+          <article>
+            <figure>
+              <img
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSdxPypJObNu2WuYK8sVEojimYGvMVPlOlFtVGoHJnuHkowq47S" 
+                alt="Yevgeny IMG"
+              />
+            </figure>
+            <summary>
+              <p>
+                “All of life in its complexity and beauty is forever minted in the gold of words.”
+              </p>
+              <strong>- Yevgeny Zamyatin</strong>
+            </summary>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="https://tellyvisions.org/sites/default/files/jane%20austen%20blue%20painting.jpg" 
+                alt="Austin IMG"
+              />
+            </figure>
+            <summary>
+              <p>
+                “Time will explain.”
+              </p>
+              <strong>- Jane Austin</strong>
+            </summary>
+          </article>
+
+        </section>
+
+        <section class="historical-quotes">
+
+          <h2>Historical Quotes</h2>
+
+          <article>
+            <figure>
+              <img
+                src="https://images.immediate.co.uk/production/volatile/sites/7/2018/03/21a.GettyImages-463979939-f2b37ce.jpg?quality=90&resize=652,435" 
+                alt="Victoria IMG"
+              />
+            </figure>
+            <summary>
+              <p>
+                “We are not amused.”
+              </p>
+              <strong>- Queen Victoria</strong>
+            </summary>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Lord_Byron_by_Henry_Pierce_Bone.jpg/220px-Lord_Byron_by_Henry_Pierce_Bone.jpg" 
+                alt="Byron IMG"
+              />
+            </figure>
+            <summary>
+              <p>“The best prophet of the future is the past.”</p>
+              <strong>- Lord Byron</strong>
+            </summary>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzsGl7Y78hozhS0_zjGeJrLWSZngCv2MEKDzHkb74FGuWEs7Tf" 
+                alt="Turing IMG"
+              />
+            </figure>
+            <summary>
+              <p>
+                “Sometimes it is the people no one can imagine anything of who do the things no one can imagine.”
+              </p>
+              <strong>- Alan Turing</strong>
+            </summary>
+          </article>
+
+        </section>
+
+        <section class="bonus-quote">
+
+          <h2>Bonus Quote!</h2>
+          
+          <article>
+          <figure>
+            <img
+            src="data:image/jpeg;base64,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"
+            alt="road-rage"
+            />
+          </figure>
+          <summary>
+            <p>Where did you pass your test? Disneyland!</p>
+            <strong>- Driver on the M25</strong>
+          </summary>
+        </article>
+
+        </section>
+      </main>
+        
+      <footer>
+        <h3>&#169 QuoteBook</h3>
+      </footer>
+
+    </div>
 
   </body>
 </html>
