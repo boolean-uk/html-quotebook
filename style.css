@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+.truculenta-titles {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
 body {
     background-color: rgb(43, 43, 44);
 }
@@ -15,7 +25,13 @@ header {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    font-family: tourney;
+    color: rgb(192, 138, 46);
+    font-size: 28px;
 }
+
+
+
 
 nav {
     background-color: rgb(36, 95, 95);
@@ -24,7 +40,8 @@ nav {
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
-
+    font-family: truculenta;
+    font-size: 26px;
 }
 
 nav a {
@@ -60,6 +77,8 @@ article h2 {
     padding: 1rem 5rem;
     align-self: center;
     background-color: rgb(38, 101, 160);
+    font-family: truculenta;
+    font-size: 32px;
 }
 
 .quotes {
