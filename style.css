@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.first-art, .second-art, .third-art, .fourth-art, .fifth-art, .sixth-art {
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+article img {
+    width: 120%;
+    position: absolute;
+    animation: zoom-out 20s linear infinite;
+}
+@keyframes zoom-out{
+    100%{
+        width: 100%
+    }
+}
+
+.first-art {
+    animation: background1 40s linear infinite;
+}
+.second-art {
+    animation: background2 40s linear infinite;
+}
+.third-art {
+    animation: background3 40s linear infinite;
+}
+.fourth-art {
+    animation: background4 40s linear infinite;
+}
+.fifth-art {
+    animation: background5 40s linear infinite;
+}
+.sixth-art {
+    animation: background6 40s linear infinite;
+}
+@keyframes background1{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+    120%{
+        visibility: visible;
+    }
+}
+@keyframes background2 {
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: visible;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+    120%{
+        visibility: hidden;
+    }
+}
+@keyframes background3 {
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: visible;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+    120%{
+        visibility: hidden;
+    }
+}
+@keyframes background4 {
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+    120%{
+        visibility: hidden;
+    }
+}
+@keyframes background5 {
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+    120%{
+        visibility: hidden;
+    }
+}
+@keyframes background6 {
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+    120%{
+        visibility: visible;
+    }
+}
+@keyframes textup {
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+section {
+    width: 700px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: #fff;
+    font-family: "Sree Krushnadevaraya", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 35px;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+}
+section p {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 55px;
+}
+.quote-one {
+    animation-delay: 0s;
+}
+.quote-two {
+    animation-delay: 8s;
+}
+.quote-three {
+    animation-delay: 16s;
+}
+.quote-four {
+    animation-delay: 24s;
+}
+.quote-five {
+    animation-delay: 32s;
+}
+.quote-six {
+    animation-delay: 40s;
+}
