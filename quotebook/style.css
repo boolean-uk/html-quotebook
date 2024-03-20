@@ -1,0 +1,103 @@
+html,
+body,
+.container {
+    height: 111%;
+    margin: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 13% 87% 5%;
+    grid-template-areas:
+        "header"
+        "left-sidebar, main"
+        " footer";
+}
+
+.container * {
+    display: grid;
+    padding: 1.2%;
+     border: 1px brown; 
+}
+
+.header {
+    margin: 0;
+    background-color: brown;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 96%;
+    grid-template-areas: inherit;
+    border: 5px solid brown;
+}
+
+.panel {
+    border-radius: 1px;
+}
+
+.left-sidebar {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "author-image-panel"
+        "author-bio-panel";
+}
+.author-image-panel {
+    display: grid;
+    grid-row: 100%;
+    justify-content: center;
+}
+
+.author-image-panel img {
+    width: 300px;
+    height: 400px;
+}
+
+.author-bio-panel {
+    background-color: beige;
+}
+
+.author-bio-panel p {
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quotes-panel {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr;
+    background-color: lightcoral;
+    grid-auto-columns: auto;
+    grid-template-areas:
+        "quotes-header"
+        "quotes-list";
+}
+
+quotes-list {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 30px 30px;
+    padding: 4px;
+    justify-content: space-evenly;
+}
+
+.quote {
+    margin: 3px;
+    padding: 20px 0px 10px 0px;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    background-color: black;
+    padding: 1px;
+}
